@@ -255,6 +255,7 @@ class VideoHit
         $metadata->setGroupPrefix('hit')
             ->addProperties(
                 [
+                    'id',
                     'dateHit',
                     'dateLeft',
                     'lead',
