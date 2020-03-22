@@ -465,8 +465,7 @@ class Lead extends FormEntity implements CustomFieldEntityInterface
      */
     public static function loadApiMetadata(ApiMetadataDriver $metadata)
     {
-        $metadata->setRoot('lead')
-            ->setGroupPrefix('leadBasic')
+        $metadata->setGroupPrefix('leadBasic')
             ->addListProperties(
                 [
                     'id',
